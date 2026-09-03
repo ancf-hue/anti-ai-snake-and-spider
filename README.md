@@ -17,7 +17,6 @@
 
 > 🎮 Трёхмерная аркада из проекта **Anti-AI Shield**. Вы — змея, запертая в паутине. 3 минуты. 3 жизни. 1 шанс сбежать из пещеры, пока гигантский паук спит.
 
-![screenshot](https://via.placeholder.com/800x400/15101a/b066ee?text=🐍+Snake+%26+Spider+—+3D+Web+Game)
 
 ---
 
@@ -65,55 +64,15 @@
 
 ---
 
-## 🛠️ Технологии
-
-- **HTML5 + CSS3** — glassmorphism UI с 3D-кнопками
-- **JavaScript (ES6+)** — логика игры без фреймворков
-- **Three.js r128** — 3D-рендеринг, кастомный OrbitControls
-- **Web Audio API** — синтез звука
-- **SpeechSynthesis API** — голосовые уведомления
-- **Clipboard API** — копирование номера поддержки
-
----
-
-## 🚀 Запуск
-
-### Вариант 1: GitHub Pages (рекомендуется)
-1. Перейдите в **Settings → Pages**
-2. Source: `main` branch, folder: `/ (root)`
-3. Игра доступна по адресу: `https://<username>.github.io/anti-ai-snake-and-spider/`
-
-### Вариант 2: Локально
-```bash
-git clone https://github.com/<username>/anti-ai-snake-and-spider.git
-cd anti-ai-snake-and-spider
-python3 -m http.server 8080
-```
-Откройте `http://localhost:8080` в браузере.
-
-> ⚠️ Требуется веб-сервер (CDN-библиотека Three.js не загрузится с `file://`).
-
----
-
-## 📂 Структура проекта
-
-```
-anti-ai-snake-and-spider/
-├── index.html          ← Весь код игры (HTML + CSS + JS в одном файле)
-├── favicon.ico         ← Иконка игры
-├── spider.webp         ← Фон экрана меню (опционально)
-└── README.md
-```
-
----
 
 ## 🏆 Доска почёта
 
 При победе (побег из пещеры) игрок получает **🐍 красную змею** и может отправить результат в общий рейтинг:
 
-
-
 Результат подписывается криптографическим токеном с nonce + timestamp для защиты от накрутки.
+
+---
+
 
 
 
